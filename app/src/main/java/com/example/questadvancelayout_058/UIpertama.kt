@@ -35,7 +35,7 @@ fun ActivitasPertama(modifier:Modifier){
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text( stringResource(R.string.prodi),
-            fontSize = 35.sp,
+            fontSize = 35.sp,  // font size dapat di atur ukurannya menggunakan .sp
             fontWeight = FontWeight.Bold)
         Text(stringResource(R.string.univ),
                 fontSize = 22.sp)
