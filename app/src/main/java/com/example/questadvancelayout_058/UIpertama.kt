@@ -44,7 +44,7 @@ fun ActivitasPertama(modifier:Modifier){
             .fillMaxWidth(1f)
             .padding(12.dp),
             colors = CardDefaults.cardColors(
-                containerColor = Color.DarkGray
+                containerColor = Color.DarkGray //menambahkan warna
             )) {
             Row() {
                 val gambar = painterResource(R.drawable.logo_umy)
