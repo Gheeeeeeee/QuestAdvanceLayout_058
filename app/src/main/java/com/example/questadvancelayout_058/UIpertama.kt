@@ -51,7 +51,7 @@ fun ActivitasPertama(modifier:Modifier){
                 Image(
                     painter = gambar,
                     contentDescription = null,
-                    modifier = Modifier.size(100.dp).padding(5.dp)
+                    modifier = Modifier.size(100.dp).padding(5.dp) //memodifikasi besaran logo
                 )
                 Spacer(modifier = Modifier.width(30.dp))
                 Column() {
