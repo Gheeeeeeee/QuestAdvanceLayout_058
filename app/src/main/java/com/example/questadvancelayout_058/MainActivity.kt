@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
+// just add more commit
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
