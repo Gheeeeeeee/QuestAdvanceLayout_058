@@ -36,7 +36,7 @@ fun ActivitasPertama(modifier:Modifier){
     ) {
         Text( stringResource(R.string.prodi),
             fontSize = 35.sp,  // font size dapat di atur ukurannya menggunakan .sp
-            fontWeight = FontWeight.Bold)
+            fontWeight = FontWeight.Bold) // text bisa di ubah menjadi bold dll melalui fontWight.
         Text(stringResource(R.string.univ),
                 fontSize = 22.sp)
         Spacer(modifier = Modifier.height(25.dp))
