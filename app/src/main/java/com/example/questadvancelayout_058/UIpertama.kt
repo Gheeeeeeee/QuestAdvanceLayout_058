@@ -30,8 +30,8 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun ActivitasPertama(modifier:Modifier){
-    Column(modifier = Modifier.padding(top=100.dp)
-        .fillMaxSize(),
+    Column(modifier = Modifier.padding(top=100.dp)  //untuk menambahkan dependency drag cursor ke collumn or etc yang merah lalu klik import
+        .fillMaxSize(),                             //maka otomatis import column akan ditambahkan
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text( stringResource(R.string.prodi),
