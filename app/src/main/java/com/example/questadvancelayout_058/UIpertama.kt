@@ -47,7 +47,7 @@ fun ActivitasPertama(modifier:Modifier){
                 containerColor = Color.DarkGray //menambahkan warna
             )) {
             Row() {
-                val gambar = painterResource(R.drawable.logo_umy)
+                val gambar = painterResource(R.drawable.logo_umy) //menambahkan logo yang dipanggil melalui resource drawable
                 Image(
                     painter = gambar,
                     contentDescription = null,
