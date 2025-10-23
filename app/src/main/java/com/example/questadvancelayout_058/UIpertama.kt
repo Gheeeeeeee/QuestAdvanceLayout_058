@@ -80,7 +80,8 @@ fun ActivitasPertama(modifier:Modifier){
                     modifier = Modifier
                         .align(Alignment.BottomCenter)
                         .padding(bottom = 50.dp)
-                )
+                ) // box yang digunakan untuk mengisi blank kosong di tampilan
+                  // pada box ini di isi tulisan copyright di tengah paling bawah tampilan
         }
     }
 }
