@@ -39,7 +39,7 @@ fun ActivitasPertama(modifier:Modifier){
             fontWeight = FontWeight.Bold) // text bisa di ubah menjadi bold dll melalui fontWight.
         Text(stringResource(R.string.univ),
                 fontSize = 22.sp)
-        Spacer(modifier = Modifier.height(25.dp))
+        Spacer(modifier = Modifier.height(25.dp)) //spacer digunakan untuk menambahkan jarak
         Card (modifier = Modifier
             .fillMaxWidth(1f)
             .padding(12.dp),
