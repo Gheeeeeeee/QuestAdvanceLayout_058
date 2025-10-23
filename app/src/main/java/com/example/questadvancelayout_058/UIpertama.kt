@@ -26,6 +26,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+//libraries or dependencies can be add after function
 
 @Composable
 fun ActivitasPertama(modifier:Modifier){
