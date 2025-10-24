@@ -71,6 +71,43 @@ fun ActivitasPertama(modifier:Modifier){
                 }
             }
         }
+        Card (modifier = Modifier
+            .fillMaxWidth(1f)
+            .padding(10.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.Blue //menambahkan warna
+            )) {
+            Row() {
+                val gambar = painterResource(R.drawable.logo_umy) //menambahkan logo yang dipanggil melalui resource drawable
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.size(100.dp).padding(5.dp) //memodifikasi besaran logo
+                )
+                Spacer(modifier = Modifier.width(20.dp))
+                Column() {
+                    Text(
+                        stringResource(R.string.namaa),
+                        fontSize = 25.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = Color.White,
+                        modifier = Modifier.padding(top=5.dp)
+                    )
+                    Text(
+                        stringResource(R.string.nohp),
+                        fontSize = 20.sp,
+                        color = Color.Green,
+                        modifier = Modifier.padding(top=5.dp)
+                    )
+                    Text(
+                        stringResource(R.string.alamat1),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(top=5.dp)
+                    )
+                }
+            }
+        }
         Box (
             modifier = Modifier
                 .fillMaxSize()
