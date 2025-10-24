@@ -159,4 +159,4 @@ fun ActivitasPertama(modifier:Modifier){
         }
     }
 }
-
+// finish :D
