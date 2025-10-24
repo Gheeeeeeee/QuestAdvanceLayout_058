@@ -93,7 +93,7 @@ fun ActivitasPertama(modifier:Modifier){
                         color = Color.White,
                         modifier = Modifier.padding(top=5.dp)
                     )
-                    Text(
+                    Text(  // new text in collum
                         stringResource(R.string.nohp),
                         fontSize = 20.sp,
                         color = Color.Green,
